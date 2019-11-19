@@ -14,6 +14,7 @@ points = PoolVector3Array( -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1, 1, 1,
 [node name="World" type="Spatial"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.22921e-005, -0.000233769, 0.000132799 )
 
 [node name="Ground" type="MeshInstance" parent="."]
 editor/display_folded = true

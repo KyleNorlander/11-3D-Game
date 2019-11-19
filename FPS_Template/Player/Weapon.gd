@@ -2,13 +2,13 @@ extends Node
 
 class_name Weapon
 
-export var fire_rate = 0.5
-export var clip_size = 5
-export var reload_rate = 1
+var fire_rate = 0.5
+var clip_size = 30
+var reload_rate = 1
 
 onready var ammo_label = $"/root/World/UI/Label"
 onready var raycast = $"../Head/Camera/RayCast"
-var current_ammo = 0
+var current_ammo = 30
 var can_fire = true
 var reloading = false
 
