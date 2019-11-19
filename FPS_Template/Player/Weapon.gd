@@ -2,7 +2,7 @@ extends Node
 
 class_name Weapon
 
-var fire_rate = 0.5
+var fire_rate = .1
 var clip_size = 30
 var reload_rate = 1
 
@@ -38,7 +38,7 @@ func check_collision():
 			print("Killed " + collider.name)
 
 func fire():
-	print("Fired weapon")
+	print("Pew")
 	can_fire = false
 	current_ammo -= 1
 	check_collision()
