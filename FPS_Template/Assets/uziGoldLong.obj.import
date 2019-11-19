@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/uziGoldLong.obj-6a802a53e6a28efd4b0c7e9dd3dc6f89.mesh"
+
+[deps]
+
+files=[ "res://.import/uziGoldLong.obj-6a802a53e6a28efd4b0c7e9dd3dc6f89.mesh" ]
+
+source_file="res://Assets/uziGoldLong.obj"
+dest_files=[ "res://.import/uziGoldLong.obj-6a802a53e6a28efd4b0c7e9dd3dc6f89.mesh", "res://.import/uziGoldLong.obj-6a802a53e6a28efd4b0c7e9dd3dc6f89.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

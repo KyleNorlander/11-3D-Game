@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player/Player.gd" type="Script" id=1]
-[ext_resource path="res://Models/uziGoldLongSilencer.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Assets/uziGoldLongSilencer.obj" type="ArrayMesh" id=2]
 [ext_resource path="res://Player/Shotgun.gd" type="Script" id=3]
 
 [sub_resource type="CapsuleShape" id=1]
@@ -16,17 +16,18 @@ mid_height = 1.25
 script = ExtResource( 1 )
 
 [node name="Head" type="Spatial" parent="."]
+editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.919402, 0 )
 
 [node name="Camera" type="Camera" parent="Head"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0648164, -0.547742 )
+editor/display_folded = true
 
 [node name="RayCast" type="RayCast" parent="Head/Camera"]
 enabled = true
 cast_to = Vector3( 0, 0, -100 )
 
 [node name="uziGoldLongSilencer" type="MeshInstance" parent="Head/Camera"]
-transform = Transform( -8, 3.02777e-014, -6.99382e-007, 0, 8, 3.46336e-007, 6.99382e-007, 3.46336e-007, -8, -0.213253, -0.270838, -0.637585 )
+transform = Transform( -7, 0, -6.11959e-007, 0, 7, 0, 6.11959e-007, 0, -7, 0.203146, -0.284135, -0.63238 )
 mesh = ExtResource( 2 )
 material/0 = null
 material/1 = null
@@ -69,7 +70,7 @@ material/37 = null
 material/38 = null
 
 [node name="uziGoldLongSilencer2" type="MeshInstance" parent="Head/Camera"]
-transform = Transform( -8, 3.02777e-014, -6.99382e-007, 0, 8, 3.46336e-007, 6.99382e-007, 3.46336e-007, -8, 0.198463, -0.270838, -0.637585 )
+transform = Transform( -7, 0, -6.11959e-007, 0, 7, 0, 6.11959e-007, 0, -7, -0.204844, -0.284135, -0.63238 )
 mesh = ExtResource( 2 )
 material/0 = null
 material/1 = null

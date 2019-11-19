@@ -1,12 +1,13 @@
-extends KinematicBody
+extends StaticBody
 
-var health = 10
-var max_health = 10
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
 
-func _on_Enemy_input_event(camera, event, click_position, click_normal, shape_idx):
-    if event is InputEventMouseButton:
-        if event.button_index == BUTTON_LEFT and event.pressed:
-            health -= 1
-            if health <= 0:
-                queue_free()
-				$HealthBar3D.update(health, max_health)
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
