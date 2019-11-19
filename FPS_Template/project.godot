@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="FPS Tutorial 1"
+config/name="FPS"
 run/main_scene="res://Scenes/World.tscn"
 config/icon="res://icon.png"
 

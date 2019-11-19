@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocketlauncherSide.obj-0201ca87a17bd371d33c948ab0fc16a3.mesh"
+
+[deps]
+
+files=[ "res://.import/rocketlauncherSide.obj-0201ca87a17bd371d33c948ab0fc16a3.mesh" ]
+
+source_file="res://Models/rocketlauncherSide.obj"
+dest_files=[ "res://.import/rocketlauncherSide.obj-0201ca87a17bd371d33c948ab0fc16a3.mesh", "res://.import/rocketlauncherSide.obj-0201ca87a17bd371d33c948ab0fc16a3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

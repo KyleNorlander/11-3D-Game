@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/sniper.obj-8315c0b62017aeab668763b753fa35c2.mesh"
+
+[deps]
+
+files=[ "res://.import/sniper.obj-8315c0b62017aeab668763b753fa35c2.mesh" ]
+
+source_file="res://Models/sniper.obj"
+dest_files=[ "res://.import/sniper.obj-8315c0b62017aeab668763b753fa35c2.mesh", "res://.import/sniper.obj-8315c0b62017aeab668763b753fa35c2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

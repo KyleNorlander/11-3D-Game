@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/machinegunLauncher.obj-f540979bc7bcab453716806bb461e47f.mesh"
+
+[deps]
+
+files=[ "res://.import/machinegunLauncher.obj-f540979bc7bcab453716806bb461e47f.mesh" ]
+
+source_file="res://Models/machinegunLauncher.obj"
+dest_files=[ "res://.import/machinegunLauncher.obj-f540979bc7bcab453716806bb461e47f.mesh", "res://.import/machinegunLauncher.obj-f540979bc7bcab453716806bb461e47f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
