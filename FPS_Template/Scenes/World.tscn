@@ -13,12 +13,11 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.0222, 0 )
 
 [node name="Ground" type="MeshInstance" parent="."]
 editor/display_folded = true
-transform = Transform( 15.0738, 0, 0, 0, 1, 0, 0, 0, 17.739, 0, -6.04547, 0 )
+transform = Transform( 15.0738, 0, 0, 0, 1, 0, 0, 0, 17.739, 0.044589, -6.20027, 0.0468216 )
 mesh = SubResource( 1 )
 material/0 = null
 
 [node name="StaticBody" type="StaticBody" parent="Ground"]
-editor/display_folded = true
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground/StaticBody"]
 shape = SubResource( 2 )
@@ -47,8 +46,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0311852, -3.33995, 9.32624 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.53297, -3.7801, 0 )
 
 [node name="Zombie2" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2764, -3.7801, 3.49454 )
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.27344, -3.7801, 3.49454 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.68572, -3.7801, 3.49454 )
 
 [node name="Zombie3" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.7801, -5.45429 )
