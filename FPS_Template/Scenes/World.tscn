@@ -1,25 +1,15 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Zombie.tscn" type="PackedScene" id=2]
 
 [sub_resource type="CubeMesh" id=1]
 
 [sub_resource type="ConvexPolygonShape" id=2]
 points = PoolVector3Array( -1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1, 1, 1, -1, -1, 1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, -1, 1, 1, -1, -1, 1, 1, 1, -1, 1, -1, -1, -1, 1, -1, -1, -1, -1, 1, 1, 1, 1, -1, -1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, -1, -1, -1, -1, 1, -1, 1, -1, -1 )
 
-[sub_resource type="SphereMesh" id=3]
-
-[sub_resource type="SphereShape" id=4]
-
-[sub_resource type="SphereMesh" id=5]
-
-[sub_resource type="SphereShape" id=6]
-
 [node name="World" type="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.0222, 0 )
-
-[node name="Player" parent="." instance=ExtResource( 1 )]
-transform = Transform( -0.188585, 0, 0.982057, 0, 1, 0, -0.982057, 0, -0.188585, 6.85098, -3.77257, 1.29933 )
 
 [node name="Ground" type="MeshInstance" parent="."]
 editor/display_folded = true
@@ -32,92 +22,12 @@ material/0 = null
 [node name="CollisionShape" type="CollisionShape" parent="Ground/StaticBody"]
 shape = SubResource( 2 )
 
-[node name="Enemy" type="StaticBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.08908, -7.42377 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy"]
-mesh = SubResource( 3 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy"]
-shape = SubResource( 4 )
-
-[node name="Enemy2" type="StaticBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.08908, 10.186 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy2"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.335733, 0, 0 )
-mesh = SubResource( 3 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy2"]
-shape = SubResource( 4 )
-
-[node name="Enemy3" type="StaticBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.08908, 1.70347 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy3"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.335733, 0, 0 )
-mesh = SubResource( 3 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy3"]
-shape = SubResource( 4 )
-
-[node name="Enemy4" type="StaticBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.08908, -2.64706 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy4"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.335733, 0, 0 )
-mesh = SubResource( 3 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy4"]
-shape = SubResource( 4 )
-
-[node name="Enemy5" type="StaticBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.08908, 5.29217 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy5"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.335733, 0, 0 )
-mesh = SubResource( 3 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy5"]
-shape = SubResource( 4 )
-
-[node name="Enemy6" type="KinematicBody" parent="." groups=[
-"Enemies",
-]]
-editor/display_folded = true
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.75298, 0, 2.33973 )
-
-[node name="MeshInstance" type="MeshInstance" parent="Enemy6"]
-mesh = SubResource( 5 )
-material/0 = null
-
-[node name="CollisionShape" type="CollisionShape" parent="Enemy6"]
-shape = SubResource( 6 )
-
 [node name="UI" type="Control" parent="."]
 editor/display_folded = true
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_top = 1.05261
+margin_bottom = 1.05261
 
 [node name="Label" type="Label" parent="UI"]
 anchor_left = 1.0
@@ -128,3 +38,18 @@ margin_left = -208.0
 margin_top = -75.0
 text = "Ammo
 30/30"
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0311852, -3.33995, 9.32624 )
+
+[node name="Zombie" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.53297, -3.7801, 0 )
+
+[node name="Zombie2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.27344, -3.7801, 3.49454 )
+
+[node name="Zombie3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.7801, -5.45429 )
+
+[node name="Zombie4" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81851, -3.7801, 3.62702 )
