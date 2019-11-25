@@ -47,6 +47,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.53297, -3.7801, 0 )
 
 [node name="Zombie2" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2764, -3.7801, 3.49454 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.27344, -3.7801, 3.49454 )
 
 [node name="Zombie3" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.7801, -5.45429 )
