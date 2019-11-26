@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Player.gd" type="Script" id=1]
 [ext_resource path="res://Assets/fps_hand.png" type="Texture" id=2]
 [ext_resource path="res://Assets/crosshair2.png" type="Texture" id=3]
 [ext_resource path="res://mouse_target.gd" type="Script" id=4]
+[ext_resource path="res://Gun+Shot2.wav" type="AudioStream" id=5]
 
 [sub_resource type="CapsuleShape" id=1]
 
@@ -83,3 +84,4 @@ script = ExtResource( 4 )
 frames = SubResource( 3 )
 
 [node name="Sound" type="AudioStreamPlayer" parent="Node2D/Mouse_Target"]
+stream = ExtResource( 5 )
