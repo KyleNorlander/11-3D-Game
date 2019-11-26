@@ -23,7 +23,6 @@ material/0 = null
 shape = SubResource( 2 )
 
 [node name="UI" type="Control" parent="."]
-editor/display_folded = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 1.05261
@@ -34,22 +33,27 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -208.0
-margin_top = -75.0
-text = "Ammo
-30/30"
+margin_left = -584.623
+margin_top = -582.648
+margin_right = -438.623
+margin_bottom = -519.0
+grow_horizontal = 0
+grow_vertical = 0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+text = "CLEAR THE SWARM!!"
+align = 1
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0311852, -3.33995, 9.32624 )
+transform = Transform( 0.999992, -0.00403919, 0, 0.00403919, 0.999992, 0, 0, 0, 1, 0.0311852, -3.33995, 13.2939 )
 
 [node name="Zombie" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.53297, -3.7801, 0 )
 
 [node name="Zombie2" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.68572, -3.7801, 3.49454 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.68572, -3.7801, -7.23886 )
 
 [node name="Zombie3" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.7801, -5.45429 )
 
 [node name="Zombie4" parent="." instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.81851, -3.7801, 3.62702 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.65282, -3.7801, -2.20633 )

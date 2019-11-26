@@ -31,7 +31,7 @@ tracks/0/path = NodePath("Sprite3D:frame")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
-tracks/0/enabled = true
+tracks/0/enabled = false
 tracks/0/keys = {
 "times": PoolRealArray( 0.0127604, 0.15, 0.3, 0.45 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
@@ -63,4 +63,4 @@ material_override = SubResource( 4 )
 texture = ExtResource( 2 )
 vframes = 2
 hframes = 5
-frame = 9
+frame = 3
