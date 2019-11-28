@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/debrisWood.obj-d706c90714f3b021b0326f5f3e9a5b1a.mesh"
+
+[deps]
+
+files=[ "res://.import/debrisWood.obj-d706c90714f3b021b0326f5f3e9a5b1a.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/debrisWood.obj"
+dest_files=[ "res://.import/debrisWood.obj-d706c90714f3b021b0326f5f3e9a5b1a.mesh", "res://.import/debrisWood.obj-d706c90714f3b021b0326f5f3e9a5b1a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

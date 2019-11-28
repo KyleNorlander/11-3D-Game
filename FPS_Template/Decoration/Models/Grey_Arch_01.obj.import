@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Arch_01.obj-d47d478107bd3ea2445d40bd95092fc6.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Arch_01.obj-d47d478107bd3ea2445d40bd95092fc6.mesh" ]
+
+source_file="res://Decoration/Models/Grey_Arch_01.obj"
+dest_files=[ "res://.import/Grey_Arch_01.obj-d47d478107bd3ea2445d40bd95092fc6.mesh", "res://.import/Grey_Arch_01.obj-d47d478107bd3ea2445d40bd95092fc6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

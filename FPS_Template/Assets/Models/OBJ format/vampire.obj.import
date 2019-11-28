@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/vampire.obj-906959d73e96ae84e09b63be7ac02986.mesh"
+
+[deps]
+
+files=[ "res://.import/vampire.obj-906959d73e96ae84e09b63be7ac02986.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/vampire.obj"
+dest_files=[ "res://.import/vampire.obj-906959d73e96ae84e09b63be7ac02986.mesh", "res://.import/vampire.obj-906959d73e96ae84e09b63be7ac02986.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

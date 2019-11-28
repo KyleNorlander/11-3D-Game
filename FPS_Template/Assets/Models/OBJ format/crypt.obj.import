@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crypt.obj-aa2c902dbbad3c9e72cf3199a4b88cd6.mesh"
+
+[deps]
+
+files=[ "res://.import/crypt.obj-aa2c902dbbad3c9e72cf3199a4b88cd6.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/crypt.obj"
+dest_files=[ "res://.import/crypt.obj-aa2c902dbbad3c9e72cf3199a4b88cd6.mesh", "res://.import/crypt.obj-aa2c902dbbad3c9e72cf3199a4b88cd6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

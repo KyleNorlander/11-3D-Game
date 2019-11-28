@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/brickWall.obj-7038ee58514a003358339669d0a932a0.mesh"
+
+[deps]
+
+files=[ "res://.import/brickWall.obj-7038ee58514a003358339669d0a932a0.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/brickWall.obj"
+dest_files=[ "res://.import/brickWall.obj-7038ee58514a003358339669d0a932a0.mesh", "res://.import/brickWall.obj-7038ee58514a003358339669d0a932a0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

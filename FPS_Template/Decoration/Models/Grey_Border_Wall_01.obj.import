@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Border_Wall_01.obj-31d18723cb8cf0f3049723a205f6acce.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Border_Wall_01.obj-31d18723cb8cf0f3049723a205f6acce.mesh" ]
+
+source_file="res://Decoration/Models/Grey_Border_Wall_01.obj"
+dest_files=[ "res://.import/Grey_Border_Wall_01.obj-31d18723cb8cf0f3049723a205f6acce.mesh", "res://.import/Grey_Border_Wall_01.obj-31d18723cb8cf0f3049723a205f6acce.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

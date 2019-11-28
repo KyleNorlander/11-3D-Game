@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ironFenceBorderCurve.obj-e290e6d05b68ef0e504f900407cc0817.mesh"
+
+[deps]
+
+files=[ "res://.import/ironFenceBorderCurve.obj-e290e6d05b68ef0e504f900407cc0817.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/ironFenceBorderCurve.obj"
+dest_files=[ "res://.import/ironFenceBorderCurve.obj-e290e6d05b68ef0e504f900407cc0817.mesh", "res://.import/ironFenceBorderCurve.obj-e290e6d05b68ef0e504f900407cc0817.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

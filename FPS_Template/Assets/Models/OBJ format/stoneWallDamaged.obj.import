@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stoneWallDamaged.obj-6f45d7b0e25b38a0372790f923faa6a7.mesh"
+
+[deps]
+
+files=[ "res://.import/stoneWallDamaged.obj-6f45d7b0e25b38a0372790f923faa6a7.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/stoneWallDamaged.obj"
+dest_files=[ "res://.import/stoneWallDamaged.obj-6f45d7b0e25b38a0372790f923faa6a7.mesh", "res://.import/stoneWallDamaged.obj-6f45d7b0e25b38a0372790f923faa6a7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

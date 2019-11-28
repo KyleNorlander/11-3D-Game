@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Slanted_Wall_01.obj-d0fdfea639648cbeb7adb2dc00aa4fb6.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Slanted_Wall_01.obj-d0fdfea639648cbeb7adb2dc00aa4fb6.mesh" ]
+
+source_file="res://Decoration/Models/Wood_Slanted_Wall_01.obj"
+dest_files=[ "res://.import/Wood_Slanted_Wall_01.obj-d0fdfea639648cbeb7adb2dc00aa4fb6.mesh", "res://.import/Wood_Slanted_Wall_01.obj-d0fdfea639648cbeb7adb2dc00aa4fb6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

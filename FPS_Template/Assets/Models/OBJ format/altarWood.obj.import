@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/altarWood.obj-656204780f832496578ebcb2534a7630.mesh"
+
+[deps]
+
+files=[ "res://.import/altarWood.obj-656204780f832496578ebcb2534a7630.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/altarWood.obj"
+dest_files=[ "res://.import/altarWood.obj-656204780f832496578ebcb2534a7630.mesh", "res://.import/altarWood.obj-656204780f832496578ebcb2534a7630.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

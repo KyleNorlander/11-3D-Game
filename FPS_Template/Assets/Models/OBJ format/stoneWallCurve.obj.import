@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stoneWallCurve.obj-add835dec09b0befbee3e0ab3933bffd.mesh"
+
+[deps]
+
+files=[ "res://.import/stoneWallCurve.obj-add835dec09b0befbee3e0ab3933bffd.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/stoneWallCurve.obj"
+dest_files=[ "res://.import/stoneWallCurve.obj-add835dec09b0befbee3e0ab3933bffd.mesh", "res://.import/stoneWallCurve.obj-add835dec09b0befbee3e0ab3933bffd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

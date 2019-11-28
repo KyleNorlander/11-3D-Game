@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Small_Wall_01.obj-80d149a6dcfae60b271d268dc1cd7dce.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Small_Wall_01.obj-80d149a6dcfae60b271d268dc1cd7dce.mesh" ]
+
+source_file="res://Decoration/Models/Grey_Small_Wall_01.obj"
+dest_files=[ "res://.import/Grey_Small_Wall_01.obj-80d149a6dcfae60b271d268dc1cd7dce.mesh", "res://.import/Grey_Small_Wall_01.obj-80d149a6dcfae60b271d268dc1cd7dce.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

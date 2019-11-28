@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Window_Round_Long_01.obj-ce4e5f102c34e0c1c506ec0cebbf8d20.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Window_Round_Long_01.obj-ce4e5f102c34e0c1c506ec0cebbf8d20.mesh" ]
+
+source_file="res://Decoration/Models/Wood_Window_Round_Long_01.obj"
+dest_files=[ "res://.import/Wood_Window_Round_Long_01.obj-ce4e5f102c34e0c1c506ec0cebbf8d20.mesh", "res://.import/Wood_Window_Round_Long_01.obj-ce4e5f102c34e0c1c506ec0cebbf8d20.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

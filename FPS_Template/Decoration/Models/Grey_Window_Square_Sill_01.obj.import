@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Window_Square_Sill_01.obj-6228a64c424fd93fade1f044d5b2bc0f.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Window_Square_Sill_01.obj-6228a64c424fd93fade1f044d5b2bc0f.mesh" ]
+
+source_file="res://Decoration/Models/Grey_Window_Square_Sill_01.obj"
+dest_files=[ "res://.import/Grey_Window_Square_Sill_01.obj-6228a64c424fd93fade1f044d5b2bc0f.mesh", "res://.import/Grey_Window_Square_Sill_01.obj-6228a64c424fd93fade1f044d5b2bc0f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

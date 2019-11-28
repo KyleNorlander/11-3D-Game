@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pillarObelisk.obj-4b7299de7f6d86070ec288f2ebfa459b.mesh"
+
+[deps]
+
+files=[ "res://.import/pillarObelisk.obj-4b7299de7f6d86070ec288f2ebfa459b.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/pillarObelisk.obj"
+dest_files=[ "res://.import/pillarObelisk.obj-4b7299de7f6d86070ec288f2ebfa459b.mesh", "res://.import/pillarObelisk.obj-4b7299de7f6d86070ec288f2ebfa459b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/borderPillar.obj-653d6e340ab147d92fddb35da39af95c.mesh"
+
+[deps]
+
+files=[ "res://.import/borderPillar.obj-653d6e340ab147d92fddb35da39af95c.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/borderPillar.obj"
+dest_files=[ "res://.import/borderPillar.obj-653d6e340ab147d92fddb35da39af95c.mesh", "res://.import/borderPillar.obj-653d6e340ab147d92fddb35da39af95c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

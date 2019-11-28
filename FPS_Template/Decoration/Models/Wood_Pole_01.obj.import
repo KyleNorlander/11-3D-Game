@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Pole_01.obj-5422cbacfbd30fb92bacaaab14b9665a.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Pole_01.obj-5422cbacfbd30fb92bacaaab14b9665a.mesh" ]
+
+source_file="res://Decoration/Models/Wood_Pole_01.obj"
+dest_files=[ "res://.import/Wood_Pole_01.obj-5422cbacfbd30fb92bacaaab14b9665a.mesh", "res://.import/Wood_Pole_01.obj-5422cbacfbd30fb92bacaaab14b9665a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

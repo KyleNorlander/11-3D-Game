@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pumpkinTall.obj-90e6836b81b6d84d5ada112e3f264157.mesh"
+
+[deps]
+
+files=[ "res://.import/pumpkinTall.obj-90e6836b81b6d84d5ada112e3f264157.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/pumpkinTall.obj"
+dest_files=[ "res://.import/pumpkinTall.obj-90e6836b81b6d84d5ada112e3f264157.mesh", "res://.import/pumpkinTall.obj-90e6836b81b6d84d5ada112e3f264157.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

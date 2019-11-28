@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ironFenceBorderGate.obj-2c83c5fa6f4bd8aeafe2635d8447b549.mesh"
+
+[deps]
+
+files=[ "res://.import/ironFenceBorderGate.obj-2c83c5fa6f4bd8aeafe2635d8447b549.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/ironFenceBorderGate.obj"
+dest_files=[ "res://.import/ironFenceBorderGate.obj-2c83c5fa6f4bd8aeafe2635d8447b549.mesh", "res://.import/ironFenceBorderGate.obj-2c83c5fa6f4bd8aeafe2635d8447b549.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

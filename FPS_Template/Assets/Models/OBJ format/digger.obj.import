@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/digger.obj-51a67af4de8c25cbe2d74a7e0b43abaa.mesh"
+
+[deps]
+
+files=[ "res://.import/digger.obj-51a67af4de8c25cbe2d74a7e0b43abaa.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/digger.obj"
+dest_files=[ "res://.import/digger.obj-51a67af4de8c25cbe2d74a7e0b43abaa.mesh", "res://.import/digger.obj-51a67af4de8c25cbe2d74a7e0b43abaa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Triangle_01.obj-b7a98256126c204611261b842ba10d34.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Triangle_01.obj-b7a98256126c204611261b842ba10d34.mesh" ]
+
+source_file="res://Decoration/Models/Wood_Triangle_01.obj"
+dest_files=[ "res://.import/Wood_Triangle_01.obj-b7a98256126c204611261b842ba10d34.mesh", "res://.import/Wood_Triangle_01.obj-b7a98256126c204611261b842ba10d34.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

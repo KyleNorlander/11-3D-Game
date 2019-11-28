@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gravestoneFlatOpen.obj-74cf02c3c8648289aa06e78e77cce3b1.mesh"
+
+[deps]
+
+files=[ "res://.import/gravestoneFlatOpen.obj-74cf02c3c8648289aa06e78e77cce3b1.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/gravestoneFlatOpen.obj"
+dest_files=[ "res://.import/gravestoneFlatOpen.obj-74cf02c3c8648289aa06e78e77cce3b1.mesh", "res://.import/gravestoneFlatOpen.obj-74cf02c3c8648289aa06e78e77cce3b1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

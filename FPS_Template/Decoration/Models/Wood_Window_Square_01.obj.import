@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Window_Square_01.obj-cd5eec462d31b4196a5a16e2548a266e.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Window_Square_01.obj-cd5eec462d31b4196a5a16e2548a266e.mesh" ]
+
+source_file="res://Decoration/Models/Wood_Window_Square_01.obj"
+dest_files=[ "res://.import/Wood_Window_Square_01.obj-cd5eec462d31b4196a5a16e2548a266e.mesh", "res://.import/Wood_Window_Square_01.obj-cd5eec462d31b4196a5a16e2548a266e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

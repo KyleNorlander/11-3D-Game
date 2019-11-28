@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Roof_Slant_Red_01.obj-d5839495c258bd1495f470a552f67cbe.mesh"
+
+[deps]
+
+files=[ "res://.import/Roof_Slant_Red_01.obj-d5839495c258bd1495f470a552f67cbe.mesh" ]
+
+source_file="res://Decoration/Models/Roof_Slant_Red_01.obj"
+dest_files=[ "res://.import/Roof_Slant_Red_01.obj-d5839495c258bd1495f470a552f67cbe.mesh", "res://.import/Roof_Slant_Red_01.obj-d5839495c258bd1495f470a552f67cbe.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Grey_Window_Round_Long_01.obj-b9eb93debe81c2b83197a6ec60524fb2.mesh"
+
+[deps]
+
+files=[ "res://.import/Grey_Window_Round_Long_01.obj-b9eb93debe81c2b83197a6ec60524fb2.mesh" ]
+
+source_file="res://Decoration/Models/Grey_Window_Round_Long_01.obj"
+dest_files=[ "res://.import/Grey_Window_Round_Long_01.obj-b9eb93debe81c2b83197a6ec60524fb2.mesh", "res://.import/Grey_Window_Round_Long_01.obj-b9eb93debe81c2b83197a6ec60524fb2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

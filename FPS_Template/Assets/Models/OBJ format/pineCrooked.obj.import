@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pineCrooked.obj-45e85f8d21f78e5ba3e4bf318b251f2b.mesh"
+
+[deps]
+
+files=[ "res://.import/pineCrooked.obj-45e85f8d21f78e5ba3e4bf318b251f2b.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/pineCrooked.obj"
+dest_files=[ "res://.import/pineCrooked.obj-45e85f8d21f78e5ba3e4bf318b251f2b.mesh", "res://.import/pineCrooked.obj-45e85f8d21f78e5ba3e4bf318b251f2b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

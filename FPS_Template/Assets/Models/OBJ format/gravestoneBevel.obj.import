@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gravestoneBevel.obj-579b0be507a255396e98590b3c716a2e.mesh"
+
+[deps]
+
+files=[ "res://.import/gravestoneBevel.obj-579b0be507a255396e98590b3c716a2e.mesh" ]
+
+source_file="res://Assets/Models/OBJ format/gravestoneBevel.obj"
+dest_files=[ "res://.import/gravestoneBevel.obj-579b0be507a255396e98590b3c716a2e.mesh", "res://.import/gravestoneBevel.obj-579b0be507a255396e98590b3c716a2e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

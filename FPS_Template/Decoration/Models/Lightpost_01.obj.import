@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Lightpost_01.obj-498fc8ad6ec533d70d1d6da789a4b80a.mesh"
+
+[deps]
+
+files=[ "res://.import/Lightpost_01.obj-498fc8ad6ec533d70d1d6da789a4b80a.mesh" ]
+
+source_file="res://Decoration/Models/Lightpost_01.obj"
+dest_files=[ "res://.import/Lightpost_01.obj-498fc8ad6ec533d70d1d6da789a4b80a.mesh", "res://.import/Lightpost_01.obj-498fc8ad6ec533d70d1d6da789a4b80a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
